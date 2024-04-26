@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate</title>
+</head>
+
+     <style>
+
+        #object{
+            height:100px ;
+            width: 100px;
+            background-color: lightcoral ;
+            position: relative;
+        }
+     </style>
+<body>
+       <div id="object">
+
+       </div>
+
+       <button onclick="animatediv()">Perform animation</button>
+
+</body>
+</html>
+
+<script>
+
+    function animatediv()
+    {
+        $("#object").animate({'right':'100px'})
+    }
+</script>
