@@ -1,6 +1,8 @@
 <html>
-    <head>
+ <head>
         <title>Health Check-up </title>
+    </head>
+ 
         <body>
            <u><center><i> <h1><b>Health Check-up Form</b></h1></i></center>
           </u> 
@@ -33,6 +35,17 @@
                 <label for="guava">guava</label>
             </div>
 
+            <div>
+                Choose your profession
+                <select name="profession" id="profession">
+                    <option>Select your Option</option>
+                    <option value="student">student</option>
+                    <option value="developer" selected>Developer</option>
+                </select>
+            </div>
+
+            <label for="vol">Select Your volume level : </label>
+            <input type="range" id="vol" min="0" max="100" name="vol" step="10" value="70"/>
             <input type="submit"/>
             <input type="reset"/>
 
